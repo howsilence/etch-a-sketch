@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     flex-direction: column;
@@ -11,18 +12,20 @@ h1{
     align-items: center;
     background: crimson;
     height: 100%;
-    width: 95.2%;
+    width: 80vw;
     padding-bottom: 0px;
     padding-top: 25px;
     margin-bottom: 0;
+    margin-top: 20px;
+    border-left: crimson solid 80px;
+    border-right: crimson solid 80px;
     border-top-left-radius: 90%;
     border-top-right-radius: 90%;
-    margin-top: 20px;
     font-family:cursive;
     font-size: 5rem;
     color: goldenrod
 }
-.container{
+main{
     display:flex;
     height: 65vh;
     width: 80vw;
@@ -32,13 +35,25 @@ h1{
     border-bottom:solid crimson 30px;
     padding-bottom: 10px;
 }
-.grid{
+#grid{
     display: grid;
     height: 100%;
     width: 100%;
     border: solid 5px goldenrod;
     background-color: rgba(226, 226, 226, 0.863);
 }
+.rcell{
+    /*border: 1px solid blue;*/
+    display: inline-block;
+}
+.ccell{
+    /*border: 1px solid blue;*/
+    display: inline-block;
+}
+#moused{
+    background-color: black;
+}
+
 .buttons{
     display:flex;
     justify-content: center;
@@ -46,10 +61,12 @@ h1{
 }
 .footer{
     display:flex;
+    justify-content: center;
     background: crimson;
     height: 100%;
-    width: 95.2%;
-    justify-content: center;
+    width: 80vw;
     max-height: 80px;
     border-bottom: solid crimson 30px;
+    border-left: solid crimson 80px;
+    border-right:solid crimson 80px;
 }
