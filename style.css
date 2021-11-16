@@ -50,10 +50,6 @@ main{
     /*border: 1px solid blue;*/
     display: inline-block;
 }
-#moused{
-    background-color: black;
-}
-
 .buttons{
     display:flex;
     justify-content: center;
